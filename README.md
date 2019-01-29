@@ -2,8 +2,9 @@
 BharatQR documentation for merchants.
 
 1. This will help you (as a merchant) in generating BharatQR (static and dynamic) for yourself as well as for your sub-merchants. 
-2. The generated QR code will be responded by the APIs as an image link. 
-3. Your customers can scan that BharatQR using respective BharatQR/Bank supporting apps (like Payzapp) to make the transaction. 
+2. Please note that merchants are activated on UPI on an offline basis, and they can take T+1 days to get activated by our partner bank. 
+3. The generated QR code will be responded by the APIs as an image link. 
+4. Your customers can scan that BharatQR using respective BharatQR/Bank supporting apps (like Payzapp) to make the transaction. 
 
 ## Test Environment url: https://testqr.wibmopay.com/qr/merchant
 
