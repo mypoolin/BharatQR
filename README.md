@@ -11,7 +11,8 @@ BharatQR documentation for merchants.
 
 This is the documentation for integrating BharatQR. 
 
-merchant_name and merchant_secret will be shared separately on email.
+1. Your 'merchant_name' and 'merchant_secret' as used below, would have been shared to you on the same email along with this documentation link. If not, please check for 'Welcome to WibmoPay!' subject line in all your inboxes. Else please reach out to us on help@wibmopay.com if you are still not able to find it. 
+2. Please note that these credentials are super confidential and need to be kept secret. Else anybody can generate BharatQR on your behalf and accept money. In case of loss of credentials, please email help@wibmopay.com immediately without delay. 
 
 ## Pseudocode For CheckSum Generation
 
