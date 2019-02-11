@@ -35,6 +35,14 @@ Also, pseudo code is written below to give you an idea.
 
 for further queries please reach out to the developers on backend@wibmopay.com
 
+## 1) Checksum for Register API
+	arr = [merchant_display_name,merchant_mobile,merchant_email,merchant_name,merchant_secret]
+## 2) Checksum for Static QR API
+	arr = [wallet_id,merchant_name,merchant_secret]
+## 3) Checksum for Dynamic QR API
+	arr = [wallet_id,merchant_name,amount,transaction_type,merchant_secret]
+
+
 ## Sample Code for checksum in Python  
 ```py
 import hashlib  
