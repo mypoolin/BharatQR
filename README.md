@@ -40,7 +40,7 @@ for further queries please reach out to the developers on backend@wibmopay.com
 ## 2) Checksum for Static QR API
 	arr = [wallet_id,merchant_name,merchant_secret]
 ## 3) Checksum for Dynamic QR API
-	arr = [wallet_id,merchant_name,amount,transaction_type,merchant_secret]
+	arr = [wallet_id,merchant_name,amount,transaction_type,merchant_txn_id,merchant_secret]
 
 
 ## Sample Code for checksum in Python  
