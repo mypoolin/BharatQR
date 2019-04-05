@@ -96,7 +96,25 @@ return crypto.createHash('sha512').update(String(checksum_str)).digest('hex').to
 ```
 For testing of java checksum code please visti URL - http://tpcg.io/kc0v6z
 
+
+## Sample callback
+```json
+{
+    "merchant_name": "Your merchant username",
+    "order_id": "QRDGHS56743",
+    "amount": 1.0,
+    "merchant_id": 634,
+    "reference_number": "44543",
+    "transaction_type": "STATIC/DYNAMIC",
+    "payment_mode": "BHARAT QR",
+    "status": "success",
+    "completion_time": "2019-04-05 17:46:16",
+    "mypoolin_commission": 4,
+    "wallet_id": "684536"
+}
+
+
 ## For BharatQR registration and generation APIs with input types and response codes, please visit our POSTman documentation - https://documenter.getpostman.com/view/4111011/RztivWhU
 
 
-**Documentation Last Updated - 29th january 2019**
+**Documentation Last Updated - 5th April 2019**
